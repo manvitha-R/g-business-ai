@@ -1,6 +1,6 @@
 // import Image from "next/image";
 "use client"
-import Sidebar from "./components/sidebar";
+// import Sidebar from "./components/sidebar";
 // import Popup from "./components/Popup";
 // import Container from "./Container/container";
 import Dashboard from "./Dashboard/dashboard";
@@ -13,7 +13,7 @@ export default function Home() {
 {/*      <Popup mainBoardId={""} closeModal={function (): void {
         throw new Error("Function not implemented.");
       } } onSubmit={() => Promise.resolve()}/> */}
-    <Sidebar/>
+{/*     <Sidebar/> */}
 {/*     <Container/> */}
     <Dashboard/>
 {/*     <Managetable boardId={""}/> */}
