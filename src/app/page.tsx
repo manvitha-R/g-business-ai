@@ -10,13 +10,13 @@ import Managetable from "./Managetable/managetable";
 export default function Home() {
   return (
   <div>
-     <Popup mainBoardId={""} closeModal={function (): void {
+{/*      <Popup mainBoardId={""} closeModal={function (): void {
         throw new Error("Function not implemented.");
-      } } onSubmit={() => Promise.resolve()}/>
+      } } onSubmit={() => Promise.resolve()}/> */}
     <Sidebar/>
-    <Container/>
+{/*     <Container/> */}
     <Dashboard/>
-    <Managetable boardId={""}/>
+{/*     <Managetable boardId={""}/> */}
     
   </div>
   )
